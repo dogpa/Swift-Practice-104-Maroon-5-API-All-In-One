@@ -9,21 +9,63 @@
 /* Begin PBXBuildFile section */
 		2DD9C786272D5B0700940393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C785272D5B0700940393 /* AppDelegate.swift */; };
 		2DD9C788272D5B0700940393 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C787272D5B0700940393 /* SceneDelegate.swift */; };
-		2DD9C78A272D5B0700940393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C789272D5B0700940393 /* ViewController.swift */; };
 		2DD9C78D272D5B0700940393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD9C78B272D5B0700940393 /* Main.storyboard */; };
 		2DD9C78F272D5B0800940393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD9C78E272D5B0800940393 /* Assets.xcassets */; };
 		2DD9C792272D5B0800940393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD9C790272D5B0800940393 /* LaunchScreen.storyboard */; };
+		2DD9C79E272D5E1A00940393 /* IG API JSON Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C79D272D5E1A00940393 /* IG API JSON Decodable.swift */; };
+		2DD9C7A0272D5E4D00940393 /* CountFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C79F272D5E4D00940393 /* CountFunction.swift */; };
+		2DD9C7A2272D5E9900940393 /* IGAccountCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7A1272D5E9900940393 /* IGAccountCollectionViewController.swift */; };
+		2DD9C7A4272D5EF300940393 /* IGAccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7A3272D5EF300940393 /* IGAccountCollectionViewCell.swift */; };
+		2DD9C7A6272D5F2D00940393 /* IGAccountCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7A5272D5F2D00940393 /* IGAccountCollectionReusableView.swift */; };
+		2DD9C7A8272D5FB900940393 /* IGAccountListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7A7272D5FB900940393 /* IGAccountListCollectionViewController.swift */; };
+		2DD9C7AA272D605D00940393 /* IGAccountListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7A9272D605D00940393 /* IGAccountListCollectionViewCell.swift */; };
+		2DD9C7B0272D645C00940393 /* YT JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7AF272D645C00940393 /* YT JSON.swift */; };
+		2DD9C7B2272D648900940393 /* YoutubeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7B1272D648900940393 /* YoutubeTableViewController.swift */; };
+		2DD9C7B4272D64B000940393 /* YoutubeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7B3272D64B000940393 /* YoutubeTableViewCell.swift */; };
+		2DD9C7B6272D64D600940393 /* YTWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7B5272D64D600940393 /* YTWebViewController.swift */; };
+		2DD9C7BD272D6C1A00940393 /* Twitter JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7BC272D6C1A00940393 /* Twitter JSON.swift */; };
+		2DD9C7BF272D6C4700940393 /* TwitterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7BE272D6C4700940393 /* TwitterTableViewController.swift */; };
+		2DD9C7C1272D6C6D00940393 /* TwitterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7C0272D6C6D00940393 /* TwitterTableViewCell.swift */; };
+		2DD9C7C6272D6DEF00940393 /*  Spotify JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7C5272D6DEF00940393 /*  Spotify JSON.swift */; };
+		2DD9C7C8272D6E1B00940393 /* SongWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7C7272D6E1B00940393 /* SongWebViewController.swift */; };
+		2DD9C7CA272D6E3C00940393 /* SpotifySingerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7C9272D6E3C00940393 /* SpotifySingerTableViewCell.swift */; };
+		2DD9C7CC272D6E5500940393 /* SpotifyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7CB272D6E5500940393 /* SpotifyTableViewController.swift */; };
+		2DD9C7D1272D6F2300940393 /* KKBOXJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7D0272D6F2300940393 /* KKBOXJSON.swift */; };
+		2DD9C7D3272D6F4700940393 /* KKBOXTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7D2272D6F4700940393 /* KKBOXTableViewController.swift */; };
+		2DD9C7D5272D6F6500940393 /* SingerTrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7D4272D6F6500940393 /* SingerTrackTableViewCell.swift */; };
+		2DD9C7D7272D6F7D00940393 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9C7D6272D6F7D00940393 /* SongViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DD9C782272D5B0700940393 /* Swift Practice # 104 Maroon 5 API All In One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 104 Maroon 5 API All In One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD9C785272D5B0700940393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD9C787272D5B0700940393 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DD9C789272D5B0700940393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DD9C78C272D5B0700940393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DD9C78E272D5B0800940393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD9C791272D5B0800940393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DD9C793272D5B0800940393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD9C79D272D5E1A00940393 /* IG API JSON Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IG API JSON Decodable.swift"; sourceTree = "<group>"; };
+		2DD9C79F272D5E4D00940393 /* CountFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountFunction.swift; sourceTree = "<group>"; };
+		2DD9C7A1272D5E9900940393 /* IGAccountCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGAccountCollectionViewController.swift; sourceTree = "<group>"; };
+		2DD9C7A3272D5EF300940393 /* IGAccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGAccountCollectionViewCell.swift; sourceTree = "<group>"; };
+		2DD9C7A5272D5F2D00940393 /* IGAccountCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGAccountCollectionReusableView.swift; sourceTree = "<group>"; };
+		2DD9C7A7272D5FB900940393 /* IGAccountListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGAccountListCollectionViewController.swift; sourceTree = "<group>"; };
+		2DD9C7A9272D605D00940393 /* IGAccountListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGAccountListCollectionViewCell.swift; sourceTree = "<group>"; };
+		2DD9C7AF272D645C00940393 /* YT JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YT JSON.swift"; sourceTree = "<group>"; };
+		2DD9C7B1272D648900940393 /* YoutubeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeTableViewController.swift; sourceTree = "<group>"; };
+		2DD9C7B3272D64B000940393 /* YoutubeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeTableViewCell.swift; sourceTree = "<group>"; };
+		2DD9C7B5272D64D600940393 /* YTWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTWebViewController.swift; sourceTree = "<group>"; };
+		2DD9C7BC272D6C1A00940393 /* Twitter JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Twitter JSON.swift"; sourceTree = "<group>"; };
+		2DD9C7BE272D6C4700940393 /* TwitterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterTableViewController.swift; path = "Swift Practice # 104 Maroon 5 API All In One/SPotify/TwitterTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		2DD9C7C0272D6C6D00940393 /* TwitterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTableViewCell.swift; sourceTree = "<group>"; };
+		2DD9C7C5272D6DEF00940393 /*  Spotify JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Spotify JSON.swift"; sourceTree = "<group>"; };
+		2DD9C7C7272D6E1B00940393 /* SongWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongWebViewController.swift; sourceTree = "<group>"; };
+		2DD9C7C9272D6E3C00940393 /* SpotifySingerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySingerTableViewCell.swift; sourceTree = "<group>"; };
+		2DD9C7CB272D6E5500940393 /* SpotifyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTableViewController.swift; sourceTree = "<group>"; };
+		2DD9C7D0272D6F2300940393 /* KKBOXJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKBOXJSON.swift; sourceTree = "<group>"; };
+		2DD9C7D2272D6F4700940393 /* KKBOXTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKBOXTableViewController.swift; sourceTree = "<group>"; };
+		2DD9C7D4272D6F6500940393 /* SingerTrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerTrackTableViewCell.swift; sourceTree = "<group>"; };
+		2DD9C7D6272D6F7D00940393 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +98,188 @@
 		2DD9C784272D5B0700940393 /* Swift Practice # 104 Maroon 5 API All In One */ = {
 			isa = PBXGroup;
 			children = (
+				2DD9C799272D5C7900940393 /* IG */,
+				2DD9C7AB272D630A00940393 /* YT */,
+				2DD9C7B7272D6B5F00940393 /* Twitter */,
+				2DD9C7B8272D6B7100940393 /* SPotify */,
+				2DD9C7B9272D6B7F00940393 /* KKBOX */,
 				2DD9C785272D5B0700940393 /* AppDelegate.swift */,
 				2DD9C787272D5B0700940393 /* SceneDelegate.swift */,
-				2DD9C789272D5B0700940393 /* ViewController.swift */,
 				2DD9C78B272D5B0700940393 /* Main.storyboard */,
 				2DD9C78E272D5B0800940393 /* Assets.xcassets */,
 				2DD9C790272D5B0800940393 /* LaunchScreen.storyboard */,
 				2DD9C793272D5B0800940393 /* Info.plist */,
 			);
 			path = "Swift Practice # 104 Maroon 5 API All In One";
+			sourceTree = "<group>";
+		};
+		2DD9C799272D5C7900940393 /* IG */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C79A272D5D5F00940393 /* JSON And Function */,
+				2DD9C79B272D5DD400940393 /* Account Collection */,
+				2DD9C79C272D5DEB00940393 /* Account List */,
+			);
+			path = IG;
+			sourceTree = "<group>";
+		};
+		2DD9C79A272D5D5F00940393 /* JSON And Function */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C79D272D5E1A00940393 /* IG API JSON Decodable.swift */,
+				2DD9C79F272D5E4D00940393 /* CountFunction.swift */,
+			);
+			path = "JSON And Function";
+			sourceTree = "<group>";
+		};
+		2DD9C79B272D5DD400940393 /* Account Collection */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7A1272D5E9900940393 /* IGAccountCollectionViewController.swift */,
+				2DD9C7A3272D5EF300940393 /* IGAccountCollectionViewCell.swift */,
+				2DD9C7A5272D5F2D00940393 /* IGAccountCollectionReusableView.swift */,
+			);
+			path = "Account Collection";
+			sourceTree = "<group>";
+		};
+		2DD9C79C272D5DEB00940393 /* Account List */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7A7272D5FB900940393 /* IGAccountListCollectionViewController.swift */,
+				2DD9C7A9272D605D00940393 /* IGAccountListCollectionViewCell.swift */,
+			);
+			path = "Account List";
+			sourceTree = "<group>";
+		};
+		2DD9C7AB272D630A00940393 /* YT */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7AC272D635500940393 /* JSON */,
+				2DD9C7AD272D636200940393 /* TableView */,
+				2DD9C7AE272D637E00940393 /* Web */,
+			);
+			path = YT;
+			sourceTree = "<group>";
+		};
+		2DD9C7AC272D635500940393 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7AF272D645C00940393 /* YT JSON.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		2DD9C7AD272D636200940393 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7B1272D648900940393 /* YoutubeTableViewController.swift */,
+				2DD9C7B3272D64B000940393 /* YoutubeTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		2DD9C7AE272D637E00940393 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7B5272D64D600940393 /* YTWebViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		2DD9C7B7272D6B5F00940393 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7BB272D6BFF00940393 /* JSON Struct */,
+				2DD9C7BA272D6BF100940393 /* Twitter TableView */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		2DD9C7B8272D6B7100940393 /* SPotify */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7C4272D6DDD00940393 /* Spotify JSON */,
+				2DD9C7C3272D6DD200940393 /* SpotifyPage */,
+				2DD9C7C2272D6DCA00940393 /* SongWeb */,
+			);
+			path = SPotify;
+			sourceTree = "<group>";
+		};
+		2DD9C7B9272D6B7F00940393 /* KKBOX */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7CF272D6F1000940393 /* KKBOX JSON */,
+				2DD9C7CE272D6F0400940393 /* KKBOXPage */,
+				2DD9C7CD272D6EFD00940393 /* SongWeb */,
+			);
+			path = KKBOX;
+			sourceTree = "<group>";
+		};
+		2DD9C7BA272D6BF100940393 /* Twitter TableView */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7BE272D6C4700940393 /* TwitterTableViewController.swift */,
+				2DD9C7C0272D6C6D00940393 /* TwitterTableViewCell.swift */,
+			);
+			path = "Twitter TableView";
+			sourceTree = "<group>";
+		};
+		2DD9C7BB272D6BFF00940393 /* JSON Struct */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7BC272D6C1A00940393 /* Twitter JSON.swift */,
+			);
+			path = "JSON Struct";
+			sourceTree = "<group>";
+		};
+		2DD9C7C2272D6DCA00940393 /* SongWeb */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7C7272D6E1B00940393 /* SongWebViewController.swift */,
+			);
+			path = SongWeb;
+			sourceTree = "<group>";
+		};
+		2DD9C7C3272D6DD200940393 /* SpotifyPage */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7C9272D6E3C00940393 /* SpotifySingerTableViewCell.swift */,
+				2DD9C7CB272D6E5500940393 /* SpotifyTableViewController.swift */,
+			);
+			path = SpotifyPage;
+			sourceTree = "<group>";
+		};
+		2DD9C7C4272D6DDD00940393 /* Spotify JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7C5272D6DEF00940393 /*  Spotify JSON.swift */,
+			);
+			path = "Spotify JSON";
+			sourceTree = "<group>";
+		};
+		2DD9C7CD272D6EFD00940393 /* SongWeb */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7D6272D6F7D00940393 /* SongViewController.swift */,
+			);
+			path = SongWeb;
+			sourceTree = "<group>";
+		};
+		2DD9C7CE272D6F0400940393 /* KKBOXPage */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7D2272D6F4700940393 /* KKBOXTableViewController.swift */,
+				2DD9C7D4272D6F6500940393 /* SingerTrackTableViewCell.swift */,
+			);
+			path = KKBOXPage;
+			sourceTree = "<group>";
+		};
+		2DD9C7CF272D6F1000940393 /* KKBOX JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9C7D0272D6F2300940393 /* KKBOXJSON.swift */,
+			);
+			path = "KKBOX JSON";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +352,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DD9C78A272D5B0700940393 /* ViewController.swift in Sources */,
+				2DD9C7A6272D5F2D00940393 /* IGAccountCollectionReusableView.swift in Sources */,
+				2DD9C7B6272D64D600940393 /* YTWebViewController.swift in Sources */,
+				2DD9C7CA272D6E3C00940393 /* SpotifySingerTableViewCell.swift in Sources */,
+				2DD9C7B0272D645C00940393 /* YT JSON.swift in Sources */,
+				2DD9C7CC272D6E5500940393 /* SpotifyTableViewController.swift in Sources */,
+				2DD9C7A2272D5E9900940393 /* IGAccountCollectionViewController.swift in Sources */,
+				2DD9C7D1272D6F2300940393 /* KKBOXJSON.swift in Sources */,
+				2DD9C7C8272D6E1B00940393 /* SongWebViewController.swift in Sources */,
+				2DD9C7A8272D5FB900940393 /* IGAccountListCollectionViewController.swift in Sources */,
+				2DD9C7D7272D6F7D00940393 /* SongViewController.swift in Sources */,
+				2DD9C7B2272D648900940393 /* YoutubeTableViewController.swift in Sources */,
+				2DD9C79E272D5E1A00940393 /* IG API JSON Decodable.swift in Sources */,
+				2DD9C7D3272D6F4700940393 /* KKBOXTableViewController.swift in Sources */,
+				2DD9C7A4272D5EF300940393 /* IGAccountCollectionViewCell.swift in Sources */,
+				2DD9C7A0272D5E4D00940393 /* CountFunction.swift in Sources */,
 				2DD9C786272D5B0700940393 /* AppDelegate.swift in Sources */,
+				2DD9C7BD272D6C1A00940393 /* Twitter JSON.swift in Sources */,
+				2DD9C7C1272D6C6D00940393 /* TwitterTableViewCell.swift in Sources */,
+				2DD9C7BF272D6C4700940393 /* TwitterTableViewController.swift in Sources */,
+				2DD9C7B4272D64B000940393 /* YoutubeTableViewCell.swift in Sources */,
+				2DD9C7D5272D6F6500940393 /* SingerTrackTableViewCell.swift in Sources */,
+				2DD9C7C6272D6DEF00940393 /*  Spotify JSON.swift in Sources */,
 				2DD9C788272D5B0700940393 /* SceneDelegate.swift in Sources */,
+				2DD9C7AA272D605D00940393 /* IGAccountListCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
